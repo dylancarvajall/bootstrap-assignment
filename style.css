@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kdam Thmor Pro';
+}
+
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+
+p {
+        color: white;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.class-for-index {
+    color: red;
+}
+
+
+
+.container-fluid img {
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    background-color: white;
+} 
+
+#logo {
+    width: 40px;
+    height: 40px;
+    background-image: url(/images/sc_center_3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.background-image {
+    background-image: url(/images/banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.rev_slider {
+    transform: initial !important;
+    }
+
+.nav-link {
+    font-family: 'Bebas Neue';
+    color: black;
+}
+
+.nav-link:hover {
+    color: rgb(148, 110, 245);
+}
+
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgba(148, 110, 245,.5);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+.text-box{
+    color: #fff;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    transform: translate(-50,-50);
+    text-align: center;
+}
+
+header, footer {
+    background-color: #ccc;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    background-image: url(https://openclipart.org/image/800px/svg_to_png/213239/Search-icon.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.btn2 {
+    padding: 0;
+    border: none;
+    background: none;
+    width: 40px;
+    height: 40px;
+    background-image: url(http://www.clker.com/cliparts/5/j/r/G/y/p/shopping-cart-icon.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+
+}
+
+
+.text-box h1{
+    font-size: 62px;
+    background-color: #00000080;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover{
+    border: 1px solid rgb(148, 110, 245);
+    background: rgb(148, 110, 245);
+    transition: 1s;
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #6c7f7d;
+    width: 100%;
+    padding: 1em;
+}
+
+footer a {
+    font-family: 'Bebas Neue';
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(148, 110, 245);
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer li {
+    margin: 0 10px;
+}
+
+#copyright {
+    font-family: 'Bebas Neue';
+    color: black;
+}
+
+.btn {
+    font-family: 'Bebas Neue';
+}
+
+.d-flex {
+    font-family: 'Bebas Neue';
+}
